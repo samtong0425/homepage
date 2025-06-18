@@ -144,6 +144,19 @@ footer {
     white-space: normal;
 }
 
+.poem-content-box {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 2px solid var(--secondary-dark);
+    padding: 30px;
+    margin: 30px;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    text-align: center;
+    line-height: 300%;
+}
+
 .source {
     text-align: center;
     background-color: var(--card-bg);
@@ -171,6 +184,14 @@ footer {
 
     .content-box {
         text-align: left;
+        padding: 10px;
+        margin: 20px 10px;
+    }
+
+    .poem-content-box {
+    font-size: 16px;
+    padding: 0px;
+    margin: 10px;
     }
 }
 
