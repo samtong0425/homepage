@@ -141,7 +141,7 @@ footer {
     text-align: center;
     background-color: var(--card-bg);
     color: var(--text-color);
-    white-space: pre-wrap;
+    white-space: normal;
 }
 
 .source {
