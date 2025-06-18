@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const darkModeToggle = document.querySelector("#darkModeToggle");
+    const darkModeLabel = document.querySelector('label[for="darkModeToggle"]');
 
     // Function to set the theme
     const setTheme = (theme) => {
@@ -7,6 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("theme", theme);
         if (darkModeToggle) {
             darkModeToggle.checked = theme === "dark";
+        }
+
+        if (darkModeLabel) {
+            darkModeLabel.textContent = theme === "dark" ? "Dark Mode" : "Light Mode";
         }
     };
 
